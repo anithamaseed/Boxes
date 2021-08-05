@@ -1,0 +1,78 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.background-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: 700;
+}
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+}
+.small-box {
+  background-color: #fbbf24;
+  height: 80px;
+  width: 80px;
+  margin-top: 24px;
+}
+@media screen and (min-width: 768px) {
+  .small-box {
+    background-color: #fbbf24;
+    height: 100px;
+    width: 100px;
+    margin-top: 24px;
+  }
+}
+.medium-box {
+  background-color: #38bdf8;
+  height: 150px;
+  width: 150px;
+}
+@media screen and (min-width: 768px) {
+  .medium-box {
+    background-color: #38bdf8;
+    height: 200px;
+    width: 200px;
+  }
+}
+.large-box {
+  background-color: #ec4899;
+  height: 270px;
+  width: 270px;
+}
+@media screen and (min-width: 768px) {
+  .large-box {
+    height: 350px;
+    width: 350px;
+  }
+}
+.text {
+  color: #ffffff;
+  font-family: "Bree Serif";
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  .text {
+    font-size: 24px;
+  }
+}
